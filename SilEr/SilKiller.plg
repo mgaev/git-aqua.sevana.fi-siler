@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SilKiller - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/SilKiller.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\SilEr\Mains\SilKiller.cpp"
+"F:\SilEr\VAD\Codld8cp.cpp"
+"F:\SilEr\VAD\Lpccp.cpp"
+"F:\SilEr\VAD\Tab_ld8k.cpp"
+"F:\SilEr\VAD\Vad.cpp"
+"F:\SilEr\Wave\CSmtSamples.cpp"
+"F:\SilEr\Wave\TranslateFormat.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP54.tmp" 
+Creating temporary file "C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP55.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/SilEr.pdb" /debug /machine:I386 /out:"Debug/SilEr.exe" /pdbtype:sept 
+.\Debug\SilKiller.obj
+.\Debug\Codld8cp.obj
+.\Debug\Lpccp.obj
+.\Debug\Tab_ld8k.obj
+.\Debug\Vad.obj
+.\Debug\CSmtSamples.obj
+.\Debug\TranslateFormat.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Admin\LOCALS~1\Temp\RSP55.tmp"
+<h3>Output Window</h3>
+Compiling...
+SilKiller.cpp
+f:\siler\mains\silkiller.cpp(12) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+f:\siler\mains\silkiller.cpp(13) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+f:\siler\mains\silkiller.cpp(14) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+f:\siler\mains\silkiller.cpp(18) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+f:\siler\mains\silkiller.cpp(114) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+f:\siler\mains\silkiller.cpp(124) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+f:\siler\mains\silkiller.cpp(151) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+f:\siler\mains\silkiller.cpp(169) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+f:\siler\mains\silkiller.cpp(187) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+f:\siler\mains\silkiller.cpp(207) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+f:\siler\mains\silkiller.cpp(217) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+f:\siler\mains\silkiller.cpp(252) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+f:\siler\mains\silkiller.cpp(259) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+f:\siler\mains\silkiller.cpp(266) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+f:\siler\mains\silkiller.cpp(273) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+f:\siler\mains\silkiller.cpp(280) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+f:\siler\mains\silkiller.cpp(287) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+f:\siler\mains\silkiller.cpp(294) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Instrumentation of F:\SilEr\Mains\SilKiller.cpp starting...
+Instrumentation of F:\SilEr\Mains\SilKiller.cpp done.
+Codld8cp.cpp
+Instrumentation of F:\SilEr\VAD\Codld8cp.cpp starting...
+Instrumentation of F:\SilEr\VAD\Codld8cp.cpp done.
+Lpccp.cpp
+Instrumentation of F:\SilEr\VAD\Lpccp.cpp starting...
+Instrumentation of F:\SilEr\VAD\Lpccp.cpp done.
+Tab_ld8k.cpp
+Instrumentation of F:\SilEr\VAD\Tab_ld8k.cpp starting...
+Instrumentation of F:\SilEr\VAD\Tab_ld8k.cpp done.
+Vad.cpp
+F:\SilEr\VAD\Vad.cpp(9) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+F:\SilEr\VAD\Vad.cpp(9) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+F:\SilEr\VAD\Vad.cpp(11) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+F:\SilEr\VAD\Vad.cpp(11) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+F:\SilEr\VAD\Vad.cpp(13) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+F:\SilEr\VAD\Vad.cpp(37) : warning C4305: '=' : truncation from 'const double' to 'float'
+F:\SilEr\VAD\Vad.cpp(100) : warning C4305: '=' : truncation from 'const double' to 'float'
+F:\SilEr\VAD\Vad.cpp(115) : warning C4305: '=' : truncation from 'const double' to 'float'
+Instrumentation of F:\SilEr\VAD\Vad.cpp starting...
+Instrumentation of F:\SilEr\VAD\Vad.cpp done.
+CSmtSamples.cpp
+f:\siler\wave\csmtsamples.cpp(789) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+f:\siler\wave\csmtsamples.cpp(797) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+Instrumentation of F:\SilEr\Wave\CSmtSamples.cpp starting...
+Instrumentation of F:\SilEr\Wave\CSmtSamples.cpp done.
+TranslateFormat.cpp
+Instrumentation of F:\SilEr\Wave\TranslateFormat.cpp starting...
+Instrumentation of F:\SilEr\Wave\TranslateFormat.cpp done.
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/SilKiller.bsc"  .\Debug\SilKiller.sbr .\Debug\Codld8cp.sbr .\Debug\Lpccp.sbr .\Debug\Tab_ld8k.sbr .\Debug\Vad.sbr .\Debug\CSmtSamples.sbr .\Debug\TranslateFormat.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SilEr.exe - 0 error(s), 28 warning(s)
+</pre>
+</body>
+</html>

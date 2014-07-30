@@ -77,6 +77,7 @@ class CVAD
     void SetEnergyBound(float aBound);
 
     int GoOne(short * pInData);
+    int GoOneBack(short * pInData);
     float GoPreEnergy(short * pInData);
 
     void vad(float rc, float *lsf, float *rxx, float *sigpp, int frm_count,

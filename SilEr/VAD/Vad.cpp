@@ -381,6 +381,18 @@ int CVAD :: GoOne(short * pInData)
   else                        return(0);
 }
 
+int CVAD :: GoOneBack(short * pInData)
+{
+  for(int i=0, j=L_FRAME-1; i < L_FRAME; i++, j--) new_speech[i] = pInData[j];
+
+  if (frame == 32767) frame = 256;
+  else frame++;
+
+  pre_process(new_speech, L_FRAME);
+  if (coder_ld8c(frame) == 1) return(1);
+  else                        return(0);
+}
+
 float CVAD :: GoPreEnergy(short * pInData)
 {
   float sum, iTmpD;
